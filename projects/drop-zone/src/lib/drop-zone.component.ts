@@ -2,7 +2,7 @@ import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {FileUploadService} from './fileUpload.service';
 
 @Component({
-  selector: 'drop-zone',
+  selector: 'lib-drop-zone',
   templateUrl: './drop-zone.component.html',
   styleUrls: ['./drop-zone.component.scss']
 })

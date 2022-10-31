@@ -31,11 +31,23 @@
             "tsConfig": "projects/drop-zone/tsconfig.spec.json",
             "karmaConfig": "projects/drop-zone/karma.conf.js"
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/drop-zone/**/*.ts",
+              "projects/drop-zone/**/*.html"
+            ]
+          }
         }
       }
     }
   },
   "cli": {
-    "analytics": "d402048b-df38-47d3-801f-27406b372fbe"
+    "analytics": "d402048b-df38-47d3-801f-27406b372fbe",
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ]
   }
 }
