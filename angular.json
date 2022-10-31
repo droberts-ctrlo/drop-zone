@@ -3,5 +3,39 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+    "drop-zone": {
+      "projectType": "library",
+      "root": "projects/drop-zone",
+      "sourceRoot": "projects/drop-zone/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/drop-zone/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/drop-zone/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/drop-zone/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/drop-zone/src/test.ts",
+            "tsConfig": "projects/drop-zone/tsconfig.spec.json",
+            "karmaConfig": "projects/drop-zone/karma.conf.js"
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "analytics": "d402048b-df38-47d3-801f-27406b372fbe"
   }
 }
