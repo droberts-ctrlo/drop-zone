@@ -1,0 +1,6 @@
+<div class = "report-rooms-photos-item hiddenPrint">
+  <img (click) = "openFileDialog($event!)" alt = "Add Image Placeholder"
+       src = "https://via.placeholder.com/400x300.jpg?text=%2B"/>
+  <input (change) = "onFilesAdded($event.target!)" [id] = "getOpenDialog()" accept = "image/jpeg" class = "hidden"
+         type = "file"/>
+</div>
