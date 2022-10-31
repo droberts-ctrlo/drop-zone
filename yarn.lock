@@ -186,9 +186,9 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/cli@~14.2.1":
+"@angular/cli@^14.2.7":
   version "14.2.7"
-  resolved "https://registry.npmjs.org/@angular/cli/-/cli-14.2.7.tgz"
+  resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-14.2.7.tgz#8eebafb2f8f86bed7450f8a79191321de34d4f07"
   integrity sha512-RM4CJwtqD7cKFQ7hNGJ56s9YMeJxYqCN5Ss0SzsKN1nXYqz8HykMW8fhUbZQ9HFVy/Ml3LGoh1yGo/tXywAWcA==
   dependencies:
     "@angular-devkit/architect" "0.1402.7"
