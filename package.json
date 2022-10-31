@@ -1,5 +1,5 @@
 {
-  "name": "drop-zone",
+  "name": "@droberts-abacussystems/drop-zone",
   "version": "0.0.1",
   "author": "Dave Roberts <daveroberts74@gmail.com>",
   "license": "MIT",
@@ -45,5 +45,8 @@
     "karma-jasmine-html-reporter": "~2.0.0",
     "ng-packagr": "^14.2.0",
     "typescript": "~4.7.2"
+  },
+  "repository": {
+    "url": "https://github.com/droberts-abacussystems/drop-zone.git"
   }
 }
